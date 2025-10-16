@@ -1,0 +1,239 @@
+.use-cases-carousel-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.use-cases-carousel {
+  position: relative;
+  width: 100%;
+  background-color: $white-offset;
+  border-radius: 4px;
+  padding: 0.75rem;
+  
+  @include media-breakpoint-up(md) {
+    padding: 1rem;
+  }
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: visible;
+  min-height: 270px;
+  
+  @include media-breakpoint-up(md) {
+    min-height: 290px;
+  }
+}
+
+.carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+  pointer-events: none;
+  
+  &.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  
+  @include media-breakpoint-up(md) {
+    padding: 0.75rem;
+    gap: 0.75rem;
+  }
+}
+
+// Name: low contrast, smaller font, italic
+.use-case-name {
+  color: $steel;
+  font-size: 0.875rem;
+  font-style: italic;
+  line-height: 1.4;
+  height: 1.4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+  @include media-breakpoint-up(md) {
+    font-size: 0.9375rem;
+  }
+}
+
+// Purpose: H2, medium-contrast, transparent bg, subtle transition
+.use-case-purpose {
+  background-color: transparent;
+  color: $steel;
+  font-family: $font-family-heading;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  height: calc(1.4em * 2 + 1rem);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  
+  @include media-breakpoint-up(md) {
+    font-size: 1.75rem;
+    padding: 0.75rem 1rem;
+    height: calc(1.4em * 2 + 1.5rem);
+  }
+  
+  &:hover {
+    background-color: rgba($black, 0.02);
+    box-shadow: 0 2px 8px rgba($black, 0.08);
+  }
+}
+
+// Examples: hollow circle bullets, same style as name
+.use-case-examples {
+  color: $steel;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  height: calc(1.4em * 4.5);
+  overflow: hidden;
+  
+  @include media-breakpoint-up(md) {
+    font-size: 0.9375rem;
+  }
+  
+  .examples-label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .examples-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      position: relative;
+      padding-left: 1.25rem;
+      margin-bottom: 0.25rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      
+      &::before {
+        content: '○';
+        position: absolute;
+        left: 0;
+        font-size: 0.875rem;
+      }
+    }
+  }
+}
+
+// Archetypes: inverted colors, right-aligned, one line
+.use-case-archetypes {
+  background-color: darken($white-offset, 8%);
+  color: $steel;
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  padding: 0.5rem 0.75rem;
+  text-align: right;
+  border-radius: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: calc(1.4em + 1rem);
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  
+  @include media-breakpoint-up(md) {
+    font-size: 0.875rem;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+// Controls: subtle dots and play/pause
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 0.75rem;
+  padding: 0 1.5rem;
+  
+  @include media-breakpoint-up(md) {
+    margin-top: 1rem;
+  }
+}
+
+.carousel-play-pause {
+  background: transparent;
+  border: 1px solid rgba($steel, 0.3);
+  color: $steel;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.75rem;
+  padding: 0;
+  
+  &:hover {
+    border-color: rgba($steel, 0.5);
+    background-color: rgba($steel, 0.05);
+  }
+  
+  &:focus {
+    outline: 2px solid rgba($primary, 0.3);
+    outline-offset: 2px;
+  }
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 400px;
+}
+
+.carousel-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgba($steel, 0.2);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: rgba($steel, 0.4);
+    transform: scale(1.2);
+  }
+  
+  &.active {
+    background-color: rgba($primary, 0.6);
+    transform: scale(1.3);
+  }
+  
+  &:focus {
+    outline: 2px solid rgba($primary, 0.3);
+    outline-offset: 2px;
+  }
+}

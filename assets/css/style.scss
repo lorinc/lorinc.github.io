@@ -1,14 +1,17 @@
 ---
 ---
 
-// Colors
-$primary: #e5261f;
-$primary-dark: #a01b16;
-$secondary: #f88379;
-$black: #2f2f41;
-$white: #ffffff;
-$white-offset: #fff6f8;
-$steel: #5c5a5a;
+// Colors - Solarized Light Theme (Warm)
+// Primary: Solarized Red, Primary Dark: Darker Red
+// Secondary: Solarized Yellow, Black: Base03, White: Base3
+// White Offset: Base2, Steel: Base00 (body text)
+$primary: #dc322f;
+$primary-dark: #cb4b16;
+$secondary: #b58900;
+$black: #002b36;
+$white: #fdf6e3;
+$white-offset: #eee8d5;
+$steel: #657b83;
 
 // Links
 $link-color: $primary;
@@ -100,6 +103,7 @@ $sub-footer-text-color: $white;
 @import "components/strip";
 @import "components/feature";
 @import "components/social";
+@import "components/use-cases-carousel";
 // @import "components/fonts"; // Uncomment this line to self host font
 
 // Pages

@@ -1,13 +1,11 @@
 ---
-title: Jekyll Serif Theme
+title: Home
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
-intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
+description: A Jekyll-based website with custom carousel components.
+show_use_cases_carousel: true
 show_call_box: true
 ---
 
-# Serif - A Jekyll Business Theme.
+# AI ROI in a month
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+I help companies run **one solid AI project** — something real, useful, and done **in a month**. It pays for itself and teaches your team what works (and what doesn’t).

@@ -1,0 +1,248 @@
+{
+  "AI_Use_Case_Patterns": [
+    {
+      "name": "Information Retrieval Assistants",
+      "purpose": "Provide instant, context-specific answers from internal or public data.",
+      "linked_archetypes": [
+        "Retrieval-Augmented Generation",
+        "Intent Detection / Classification / Routing"
+      ],
+      "example_use_cases": [
+        "Internal Q&A chatbot for support staff",
+        "Self-serve analytics copilot"
+      ]
+    },
+    {
+      "name": "Insight Synthesis Engines",
+      "purpose": "Turn fragmented data into concise explanations or dashboards.",
+      "linked_archetypes": [
+        "Summarization / Compression",
+        "Multi-hop / Reasoning / Chain-of-Thought"
+      ],
+      "example_use_cases": [
+        "Executive summary generator",
+        "Anomaly-cause explainer",
+        "KPI narrative bot"
+      ]
+    },
+    {
+      "name": "Data Reliability Guards",
+      "purpose": "Detect, validate, and prevent data quality or pipeline issues.",
+      "linked_archetypes": [
+        "Analysis / Labeling / Evaluation",
+        "Causal / Explanatory Reasoning"
+      ],
+      "example_use_cases": [
+        "ETL anomaly detector",
+        "Lineage-based validation",
+        "Observability dashboard"
+      ]
+    },
+    {
+      "name": "Decision Support Simulators",
+      "purpose": "Forecast, compare 'what-if' scenarios, or recommend next best actions.",
+      "linked_archetypes": [
+        "Causal / Explanatory Reasoning",
+        "Multi-hop / Reasoning / Chain-of-Thought"
+      ],
+      "example_use_cases": [
+        "Demand forecasting model",
+        "Prescriptive scheduling in manufacturing"
+      ]
+    },
+    {
+      "name": "Process Automation Agents",
+      "purpose": "Replace manual review or repetitive workflows with AI-driven steps.",
+      "linked_archetypes": [
+        "Agentic / Tool-augmented Retrieval",
+        "Intent Detection / Classification / Routing"
+      ],
+      "example_use_cases": [
+        "Intelligent Document Processing (IDP)",
+        "Automated KYC review"
+      ]
+    },
+    {
+      "name": "Personalization Engines",
+      "purpose": "Tailor content, recommendations, or communication per user/customer.",
+      "linked_archetypes": [
+        "Generative / Creative Use",
+        "Intent Detection / Classification / Routing"
+      ],
+      "example_use_cases": [
+        "Product recommendation module",
+        "Personalized report writer"
+      ]
+    },
+    {
+      "name": "Knowledge Lifecycle Managers",
+      "purpose": "Capture, index, and update enterprise knowledge automatically.",
+      "linked_archetypes": [
+        "Direct Retrieval / Search",
+        "Analysis / Labeling / Evaluation"
+      ],
+      "example_use_cases": [
+        "Knowledge-base auto-curator",
+        "Meeting-minutes to FAQ generator"
+      ]
+    },
+    {
+      "name": "Operational Optimization Loops",
+      "purpose": "Monitor live operations and trigger improvements or alerts.",
+      "linked_archetypes": [
+        "Agentic / Tool-augmented Retrieval",
+        "Causal / Explanatory Reasoning"
+      ],
+      "example_use_cases": [
+        "Predictive maintenance agent",
+        "Scheduling optimizer"
+      ]
+    },
+    {
+      "name": "Customer Interaction Copilots",
+      "purpose": "Converse with customers or employees through natural language.",
+      "linked_archetypes": [
+        "Retrieval-Augmented Generation",
+        "Intent Detection / Classification / Routing",
+        "Generative / Creative Use"
+      ],
+      "example_use_cases": [
+        "Customer support chatbot",
+        "Lead-qualification bot",
+        "Internal service assistant"
+      ]
+    },
+    {
+      "name": "Compliance and Audit Companions",
+      "purpose": "Ensure regulatory adherence, audit readiness, and traceability.",
+      "linked_archetypes": [
+        "Analysis / Labeling / Evaluation",
+        "Causal / Explanatory Reasoning"
+      ],
+      "example_use_cases": [
+        "GxP-compliant analytics validation",
+        "AML document auditor"
+      ]
+    },
+    {
+      "name": "Risk & Compliance Monitors",
+      "purpose": "Continuously assess and flag policy or regulatory breaches across systems.",
+      "linked_archetypes": [
+        "Analysis / Labeling / Evaluation",
+        "Causal / Explanatory Reasoning"
+      ],
+      "example_use_cases": [
+        "Automated policy-violation detector",
+        "Financial-risk early-warning bot"
+      ]
+    },
+    {
+      "name": "Data Cost Optimizers",
+      "purpose": "Detect and reduce inefficiencies in data infrastructure or cloud usage.",
+      "linked_archetypes": [
+        "Analysis / Labeling / Evaluation",
+        "Multi-hop / Reasoning / Chain-of-Thought"
+      ],
+      "example_use_cases": [
+        "Query-optimizer assistant",
+        "Cloud-spend anomaly detector"
+      ]
+    },
+    {
+      "name": "User Adoption Trainers",
+      "purpose": "Drive behavioral change by tailoring guidance and nudges to user segments.",
+      "linked_archetypes": [
+        "Generative / Creative Use",
+        "Intent Detection / Classification / Routing"
+      ],
+      "example_use_cases": [
+        "Analytics-adoption coach",
+        "In-app onboarding chatbot"
+      ]
+    },
+    {
+      "name": "Predictive Reliability Loops",
+      "purpose": "Anticipate pipeline or system failures and trigger mitigations.",
+      "linked_archetypes": [
+        "Causal / Explanatory Reasoning",
+        "Agentic / Tool-augmented Retrieval"
+      ],
+      "example_use_cases": [
+        "ETL-failure forecaster",
+        "Predictive ops monitor"
+      ]
+    },
+    {
+      "name": "AI Feature Embedders",
+      "purpose": "Integrate lightweight generative or analytical capabilities into existing products.",
+      "linked_archetypes": [
+        "Generative / Creative Use",
+        "Retrieval-Augmented Generation"
+      ],
+      "example_use_cases": [
+        "Smart reply feature",
+        "AI-advisor in SaaS apps"
+      ]
+    },
+    {
+      "name": "Revenue Intelligence Pipelines",
+      "purpose": "Merge CRM, marketing, and ops data to expose revenue bottlenecks.",
+      "linked_archetypes": [
+        "Multi-hop / Reasoning / Chain-of-Thought",
+        "Causal / Explanatory Reasoning"
+      ],
+      "example_use_cases": [
+        "Funnel-health analyzer",
+        "Deal-slippage predictor"
+      ]
+    },
+    {
+      "name": "Workforce Efficiency Analysts",
+      "purpose": "Quantify and suggest automation opportunities across departments.",
+      "linked_archetypes": [
+        "Analysis / Labeling / Evaluation",
+        "Causal / Explanatory Reasoning"
+      ],
+      "example_use_cases": [
+        "Task-time analyzer",
+        "Automation ROI recommender"
+      ]
+    },
+    {
+      "name": "Knowledge Integrity Auditors",
+      "purpose": "Detect stale, conflicting, or duplicated knowledge assets.",
+      "linked_archetypes": [
+        "Direct Retrieval / Search",
+        "Analysis / Labeling / Evaluation"
+      ],
+      "example_use_cases": [
+        "Wiki-drift detector",
+        "Document-redundancy report"
+      ]
+    },
+    {
+      "name": "Customer Experience Orchestrators",
+      "purpose": "Optimize end-to-end customer journeys via predictive insights.",
+      "linked_archetypes": [
+        "Multi-hop / Reasoning / Chain-of-Thought",
+        "Generative / Creative Use"
+      ],
+      "example_use_cases": [
+        "Churn-risk explainer",
+        "Proactive-support recommender"
+      ]
+    },
+    {
+      "name": "Human-in-the-Loop Validation Systems",
+      "purpose": "Combine AI judgment with expert review loops for high-stakes outputs.",
+      "linked_archetypes": [
+        "Agentic / Tool-augmented Retrieval",
+        "Causal / Explanatory Reasoning"
+      ],
+      "example_use_cases": [
+        "LLM review pipeline for regulatory texts",
+        "Audit-with-AI assist flow"
+      ]
+    }
+  ]
+}

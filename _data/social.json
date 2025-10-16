@@ -1,33 +1,22 @@
 [
   {
     "name": "Github",
-    "link": "https://github.com/zerostaticthemes/jekyll-serif-theme",
+    "link": "https://github.com/lorinc/lorinc.github.io",
     "image": "images/social/github.svg"
   },
   {
-    "name": "Twitter",
-    "link": "https://twitter.com/zerostaticio",
-    "image": "images/social/twitter.svg"
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/lorincnyitrai/",
+    "image": "images/social/linkedin.svg"
   },
   {
-      "name": "Facebook",
-      "link": "https://facebook.com",
-      "image": "images/social/facebook.svg"
+    "name": "Kaggle",
+    "link": "https://www.kaggle.com/lorinc",
+    "image": "images/social/kaggle.svg"
   },
   {
-      "name": "Email",
-      "link": "mailto:ekyllserif@example.com ",
-      "image": "images/social/email.svg"
-  },
-  {
-      "name": "Instagram",
-      "link": "https://instagram.com",
-      "image": "images/social/instagram.svg"
-  },
-  {
-      "name": "Discord",
-      "link": "https://discord.com",
-      "image": "images/social/discord.svg"
+    "name": "Medium",
+    "link": "https://blog.fastrevops.com/",
+    "image": "images/social/medium.svg"
   }
-
 ]

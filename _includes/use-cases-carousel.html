@@ -1,0 +1,39 @@
+{% assign use_cases = site.data.use_cases.AI_Use_Case_Patterns %}
+
+<div class="use-cases-carousel-wrapper">
+  <div class="use-cases-carousel">
+    <div class="carousel-container">
+      {% for use_case in use_cases %}
+      <div class="carousel-slide{% if forloop.first %} active{% endif %}" data-slide="{{ forloop.index0 }}">
+        <div class="carousel-content">
+          <div class="use-case-name">{{ use_case.name }}</div>
+          <div class="use-case-purpose">{{ use_case.purpose }}</div>
+          <div class="use-case-examples">
+            <span class="examples-label">Examples:</span>
+            <ul class="examples-list">
+              {% for example in use_case.example_use_cases %}
+              <li>{{ example }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="use-case-archetypes">
+            {% for archetype in use_case.linked_archetypes %}{{ archetype }}{% unless forloop.last %} :: {% endunless %}{% endfor %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+  <div class="carousel-controls">
+    <button class="carousel-play-pause" aria-label="Pause carousel">
+      <span class="play-icon" style="display: none;">▶</span>
+      <span class="pause-icon">❚❚</span>
+    </button>
+    <div class="carousel-dots">
+      {% for use_case in use_cases %}
+      <button class="carousel-dot{% if forloop.first %} active{% endif %}" data-slide="{{ forloop.index0 }}" aria-label="Go to slide {{ forloop.index }}"></button>
+      {% endfor %}
+    </div>
+  </div>
+</div>

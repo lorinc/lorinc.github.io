@@ -1,0 +1,102 @@
+{
+  "solarized": {
+    "background_tones": {
+      "dark": [
+        {
+          "name": "Base03",
+          "hex": "#002b36",
+          "lightness": 15,
+          "description": "Background tone for dark theme"
+        },
+        {
+          "name": "Base02",
+          "hex": "#073642",
+          "lightness": 20,
+          "description": "Background highlights for dark theme"
+        }
+      ],
+      "light": [
+        {
+          "name": "Base2",
+          "hex": "#eee8d5",
+          "lightness": 92,
+          "description": "Background highlights for light theme"
+        },
+        {
+          "name": "Base3",
+          "hex": "#fdf6e3",
+          "lightness": 97,
+          "description": "Background tone for light theme"
+        }
+      ]
+    },
+    "content_tones": [
+      {
+        "name": "Base01",
+        "hex": "#586e75",
+        "lightness": 45,
+        "description": "Optional emphasized content"
+      },
+      {
+        "name": "Base00",
+        "hex": "#657b83",
+        "lightness": 50,
+        "description": "Body text / default code / primary content"
+      },
+      {
+        "name": "Base0",
+        "hex": "#839496",
+        "lightness": 60,
+        "description": "Body text / default code / primary content"
+      },
+      {
+        "name": "Base1",
+        "hex": "#93a1a1",
+        "lightness": 65,
+        "description": "Comments / secondary content"
+      }
+    ],
+    "accent_colors": [
+      {
+        "name": "Yellow",
+        "hex": "#b58900",
+        "relationship": "Split Comp"
+      },
+      {
+        "name": "Orange",
+        "hex": "#cb4b16",
+        "relationship": "Complement"
+      },
+      {
+        "name": "Red",
+        "hex": "#dc322f",
+        "relationship": "Triad"
+      },
+      {
+        "name": "Magenta",
+        "hex": "#d33682",
+        "relationship": "Tetrad"
+      },
+      {
+        "name": "Violet",
+        "hex": "#6c71c4",
+        "relationship": "Analogous"
+      },
+      {
+        "name": "Blue",
+        "hex": "#268bd2",
+        "relationship": "Monotone"
+      },
+      {
+        "name": "Cyan",
+        "hex": "#2aa198",
+        "relationship": "Analogous"
+      },
+      {
+        "name": "Green",
+        "hex": "#859900",
+        "relationship": "Tetrad"
+      }
+    ]
+  }
+}
