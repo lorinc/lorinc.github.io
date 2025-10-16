@@ -6,6 +6,4 @@ show_use_cases_carousel: true
 show_call_box: true
 ---
 
-# AI ROI in a month
-
-I help companies run **one solid AI project** — something real, useful, and done **in a month**. It pays for itself and teaches your team what works (and what doesn’t).
+I help companies run **one solid AI project** — something real, useful, and done **in a month**. It pays for itself and teaches your team what works (and what doesn't).

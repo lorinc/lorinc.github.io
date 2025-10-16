@@ -1,6 +1,9 @@
 # NPM
 node_modules
+node_modules/
 npm-debug.log
+package-lock.json
+yarn.lock
 
 # Jekyll
 _site
@@ -11,7 +14,17 @@ _site/
 Gemfile.lock
 **/Gemfile.lock
 
-# Temporary files
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# OS files
 tmp
 .DS_Store
 Desktop.ini
@@ -19,4 +32,16 @@ Desktop.ini
 Thumbs.db
 .Spotlight-V100
 .Trashes
-.idea
+
+# Test files
+**/tests/
+**/*.test.*
+**/test/
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+dist/
+build/
