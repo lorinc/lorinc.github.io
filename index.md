@@ -3,11 +3,15 @@ title: Home
 layout: home
 description: A Jekyll-based website with custom carousel components.
 show_use_cases_carousel: true
-show_call_box: true
+show_dual_cta: true
 ---
 
-# Build Something That Thinks. Now.
+# What do <u>you</u> want to solve with AI?
 
-I help companies run their first ***AI pilot*** project with measurable ROI — something real, useful, and done ***in 30 days***. It pays for itself and teaches your team what works (and what doesn't).
+## **Start benefitting from your AI project in weeks.**
 
-> I'm an ex-Google Technical Product Owner with a background in AI and machine learning. I will help you finding the right use case for your first AI pilot, build it, and train your team to copy the process.
+I help companies run their first ***AI pilot*** project with measurable ROI — something real, useful, and done ***in 30 days***. 
+
+I help choosing a use case for your first AI pilot.
+
+I build it, and train your team to copy the process.

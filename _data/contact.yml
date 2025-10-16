@@ -1,3 +1,7 @@
 email: 'contact@example.com'
 phone: ''
 contact_button_link: 'contact'
+primary_cta_text: 'Schedule a call'
+primary_cta_link: 'contact'
+secondary_cta_text: 'Chat with an Expert System'
+secondary_cta_link: 'services'
