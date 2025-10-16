@@ -5,11 +5,31 @@ bodyClass: "page-home"
 
 <div class="intro">
   <div class="container">
+    {% assign content_parts = content | split: '</h1>' %}
+    {% if content_parts.size > 1 %}
     <div class="row">
       <div class="col-12">
-        <h1>AI ROI in a month</h1>
+        {{ content_parts[0] | append: '</h1>' }}
       </div>
     </div>
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        {{ content_parts[1] }}
+        {% if page.show_call_box %}
+          {% include call.html show_button=true %}
+        {% endif %}
+      </div>
+      {% if page.show_use_cases_carousel %}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        {% include use-cases-carousel.html %}
+      </div>
+      {% elsif page.intro_image %}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+      </div>
+      {% endif %}
+    </div>
+    {% else %}
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
@@ -27,6 +47,7 @@ bodyClass: "page-home"
       </div>
       {% endif %}
     </div>
+    {% endif %}
   </div>
 </div>
 

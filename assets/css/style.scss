@@ -120,3 +120,17 @@ body {
     line-height: 1.3;
   }
 }
+
+// Utility classes
+.text-highlight {
+  color: $primary;
+  font-weight: bold;
+}
+
+// Style italic-bold (***text***) as highlighted
+strong em,
+em strong {
+  color: $primary;
+  font-weight: bold;
+  font-style: normal;
+}

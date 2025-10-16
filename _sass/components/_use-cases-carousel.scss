@@ -7,7 +7,11 @@
   position: relative;
   width: 100%;
   background-color: $white-offset;
-  border-radius: 4px;
+  background-image: url('/images/illustrations/wavy.png');
+  background-size: 50%;
+  background-repeat: repeat;
+  opacity: 0.8;
+  border-radius: 10px;
   padding: 0.75rem;
   
   @include media-breakpoint-up(md) {
