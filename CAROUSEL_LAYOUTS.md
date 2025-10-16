@@ -7,7 +7,7 @@ The use-case carousel now supports two layout modes:
 Uses 100% of the browser width. Perfect for hero sections and full-page displays.
 
 ```liquid
-{% include use-case-carousel.html 
+{% include use-cases-carousel.html 
    data=site.data.use_case_carousel.AI_Use_Case_Patterns
    interval=5000
    fade_duration=800
@@ -27,7 +27,7 @@ Uses 100% of the browser width. Perfect for hero sections and full-page displays
 Uses 90% of available width with a max-width of 1140px (Bootstrap XL container). Centered on the page. Perfect for content-focused layouts.
 
 ```liquid
-{% include use-case-carousel.html 
+{% include use-cases-carousel.html 
    data=site.data.use_case_carousel.AI_Use_Case_Patterns
    interval=5000
    fade_duration=800
