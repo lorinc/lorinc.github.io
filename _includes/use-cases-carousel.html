@@ -27,16 +27,4 @@
       <div class="overlay-purpose">{% if use_cases.first %}{{ use_cases.first.impact_summary }}{% endif %}</div>
     </div>
   </div>
-  
-  <div class="carousel-controls">
-    <button class="carousel-play-pause" aria-label="Pause carousel">
-      <span class="play-icon" style="display: none;">▶</span>
-      <span class="pause-icon">❚❚</span>
-    </button>
-    <div class="carousel-dots">
-      {% for use_case in use_cases %}
-      <button class="carousel-dot{% if forloop.first %} active{% endif %}" data-slide="{{ forloop.index0 }}" aria-label="Go to slide {{ forloop.index }}"></button>
-      {% endfor %}
-    </div>
-  </div>
 </div>
