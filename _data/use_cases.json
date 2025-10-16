@@ -9,8 +9,10 @@
       ],
       "example_use_cases": [
         "Internal Q&A chatbot for support staff",
-        "Self-serve analytics copilot"
-      ]
+        "Self-serve analytics copilot",
+        "Automated knowledge base"
+      ],
+      "impact_summary": "Knowledge workers spend <b>58% of their day on 'work about work,'</b> like searching for information. For large organizations (>10k workers), time spent looking for information can <b>cost over $70 million annually</b>. (<a href='https://pivotly.com/100k-spreadsheet-your-hidden-cost-of-data-silos/'>Asana/Iterators study</a>)"
     },
     {
       "name": "Insight Synthesis Engines",
@@ -23,202 +25,125 @@
         "Executive summary generator",
         "Anomaly-cause explainer",
         "KPI narrative bot"
-      ]
+      ],
+      "impact_summary": "Poor data quality, often a result of fragmented data silos, costs organizations an average of $12.9 million annually (Gartner estimate)."
     },
     {
       "name": "Data Reliability Guards",
       "purpose": "Detect, validate, and prevent data quality or pipeline issues.",
       "linked_archetypes": [
-        "Analysis / Labeling / Evaluation",
-        "Causal / Explanatory Reasoning"
+        "Pattern Detection / Anomaly Detection",
+        "Probabilistic Reasoning / Bayesian Networks"
       ],
       "example_use_cases": [
-        "ETL anomaly detector",
-        "Lineage-based validation",
-        "Observability dashboard"
-      ]
+        "Data quality firewall for production databases",
+        "Model drift monitor"
+      ],
+      "impact_summary": "The average annual cost of poor data quality to organizations is estimated at $12.9 million (Gartner, 2021)."
     },
     {
-      "name": "Decision Support Simulators",
-      "purpose": "Forecast, compare 'what-if' scenarios, or recommend next best actions.",
+      "name": "Real-time Forecasting & Planning",
+      "purpose": "Generate predictive models for inventory, supply chain, and demand.",
       "linked_archetypes": [
-        "Causal / Explanatory Reasoning",
-        "Multi-hop / Reasoning / Chain-of-Thought"
+        "Time-Series Forecasting",
+        "Probabilistic Reasoning / Bayesian Networks"
       ],
       "example_use_cases": [
-        "Demand forecasting model",
-        "Prescriptive scheduling in manufacturing"
-      ]
-    },
-    {
-      "name": "Process Automation Agents",
-      "purpose": "Replace manual review or repetitive workflows with AI-driven steps.",
-      "linked_archetypes": [
-        "Agentic / Tool-augmented Retrieval",
-        "Intent Detection / Classification / Routing"
+        "Automated stock-out prevention",
+        "Dynamic pricing optimization"
       ],
-      "example_use_cases": [
-        "Intelligent Document Processing (IDP)",
-        "Automated KYC review"
-      ]
+      "impact_summary": "Inventory inaccuracies (overstocks and out-of-stocks) cost retailers a staggering $1.77 trillion globally, with out-of-stocks costing $1.2 trillion in 2023 alone. (<a href='https://www.retailinsight.io/blog/unveiling-the-true-cost-of-inventory-inaccuracy'>Retail Insight (2023 data)</a>)"
     },
     {
-      "name": "Personalization Engines",
-      "purpose": "Tailor content, recommendations, or communication per user/customer.",
+      "name": "Process Automation & Optimization",
+      "purpose": "Automate complex, multi-step business workflows.",
       "linked_archetypes": [
-        "Generative / Creative Use",
-        "Intent Detection / Classification / Routing"
-      ],
-      "example_use_cases": [
-        "Product recommendation module",
-        "Personalized report writer"
-      ]
-    },
-    {
-      "name": "Knowledge Lifecycle Managers",
-      "purpose": "Capture, index, and update enterprise knowledge automatically.",
-      "linked_archetypes": [
-        "Direct Retrieval / Search",
-        "Analysis / Labeling / Evaluation"
-      ],
-      "example_use_cases": [
-        "Knowledge-base auto-curator",
-        "Meeting-minutes to FAQ generator"
-      ]
-    },
-    {
-      "name": "Operational Optimization Loops",
-      "purpose": "Monitor live operations and trigger improvements or alerts.",
-      "linked_archetypes": [
-        "Agentic / Tool-augmented Retrieval",
-        "Causal / Explanatory Reasoning"
-      ],
-      "example_use_cases": [
-        "Predictive maintenance agent",
-        "Scheduling optimizer"
-      ]
-    },
-    {
-      "name": "Customer Interaction Copilots",
-      "purpose": "Converse with customers or employees through natural language.",
-      "linked_archetypes": [
-        "Retrieval-Augmented Generation",
         "Intent Detection / Classification / Routing",
-        "Generative / Creative Use"
-      ],
-      "example_use_cases": [
-        "Customer support chatbot",
-        "Lead-qualification bot",
-        "Internal service assistant"
-      ]
-    },
-    {
-      "name": "Compliance and Audit Companions",
-      "purpose": "Ensure regulatory adherence, audit readiness, and traceability.",
-      "linked_archetypes": [
-        "Analysis / Labeling / Evaluation",
-        "Causal / Explanatory Reasoning"
-      ],
-      "example_use_cases": [
-        "GxP-compliant analytics validation",
-        "AML document auditor"
-      ]
-    },
-    {
-      "name": "Risk & Compliance Monitors",
-      "purpose": "Continuously assess and flag policy or regulatory breaches across systems.",
-      "linked_archetypes": [
-        "Analysis / Labeling / Evaluation",
-        "Causal / Explanatory Reasoning"
-      ],
-      "example_use_cases": [
-        "Automated policy-violation detector",
-        "Financial-risk early-warning bot"
-      ]
-    },
-    {
-      "name": "Data Cost Optimizers",
-      "purpose": "Detect and reduce inefficiencies in data infrastructure or cloud usage.",
-      "linked_archetypes": [
-        "Analysis / Labeling / Evaluation",
-        "Multi-hop / Reasoning / Chain-of-Thought"
-      ],
-      "example_use_cases": [
-        "Query-optimizer assistant",
-        "Cloud-spend anomaly detector"
-      ]
-    },
-    {
-      "name": "User Adoption Trainers",
-      "purpose": "Drive behavioral change by tailoring guidance and nudges to user segments.",
-      "linked_archetypes": [
-        "Generative / Creative Use",
-        "Intent Detection / Classification / Routing"
-      ],
-      "example_use_cases": [
-        "Analytics-adoption coach",
-        "In-app onboarding chatbot"
-      ]
-    },
-    {
-      "name": "Predictive Reliability Loops",
-      "purpose": "Anticipate pipeline or system failures and trigger mitigations.",
-      "linked_archetypes": [
-        "Causal / Explanatory Reasoning",
         "Agentic / Tool-augmented Retrieval"
       ],
       "example_use_cases": [
-        "ETL-failure forecaster",
-        "Predictive ops monitor"
-      ]
-    },
-    {
-      "name": "AI Feature Embedders",
-      "purpose": "Integrate lightweight generative or analytical capabilities into existing products.",
-      "linked_archetypes": [
-        "Generative / Creative Use",
-        "Retrieval-Augmented Generation"
+        "Automated loan application processing",
+        "IT ticketing auto-resolution"
       ],
-      "example_use_cases": [
-        "Smart reply feature",
-        "AI-advisor in SaaS apps"
-      ]
+      "impact_summary": "The average knowledge worker spends nearly 4 hours per day on repetitive, low-value tasks that are prime candidates for automation. (<a href='https://mitrix.io/blog/youre-wasting-100-hours-on-manual-tasks-and-heres-why/'>MITRIX Technology study</a>)"
     },
     {
-      "name": "Revenue Intelligence Pipelines",
-      "purpose": "Merge CRM, marketing, and ops data to expose revenue bottlenecks.",
+      "name": "Hyper-Personalization Engines",
+      "purpose": "Deliver bespoke content, offers, or experiences to individuals.",
       "linked_archetypes": [
         "Multi-hop / Reasoning / Chain-of-Thought",
+        "Generative / Creative Use"
+      ],
+      "example_use_cases": [
+        "Next-best-action recommender",
+        "Customized insurance quote generator"
+      ],
+      "impact_summary": "AI-powered 'Next Best Experience' strategies can increase revenue by 5 to 8 percent and enhance customer satisfaction by 15 to 20 percent. (<a href='https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/next-best-experience-how-ai-can-power-every-customer-interaction'>McKinsey Report</a>)"
+    },
+    {
+      "name": "Proactive Risk & Compliance Monitors",
+      "purpose": "Continuously monitor and alert on regulatory, financial, or security risks.",
+      "linked_archetypes": [
+        "Pattern Detection / Anomaly Detection",
         "Causal / Explanatory Reasoning"
       ],
       "example_use_cases": [
-        "Funnel-health analyzer",
-        "Deal-slippage predictor"
-      ]
+        "AML transaction screening",
+        "GDPR policy violation detector"
+      ],
+      "impact_summary": "The cost of non-compliance is 2.71 times higher than the cost of maintaining compliance. Regulatory fines, such as the €1.2 billion GDPR fine issued in 2023, highlight the stakes. (<a href='https://secureframe.com/blog/sanctions-non-compliance-fine'>Secureframe/Ponemon study</a>)"
     },
     {
-      "name": "Workforce Efficiency Analysts",
-      "purpose": "Quantify and suggest automation opportunities across departments.",
+      "name": "Resource Utilization Optimizers",
+      "purpose": "Identify and eliminate wasted spend on cloud, software, or physical assets.",
       "linked_archetypes": [
-        "Analysis / Labeling / Evaluation",
+        "Time-Series Forecasting",
+        "Probabilistic Reasoning / Bayesian Networks"
+      ],
+      "example_use_cases": [
+        "Cloud cost management assistant (FinOps)",
+        "Under-utilized software license alarm"
+      ],
+      "impact_summary": "Executives estimate approximately 30% of cloud compute spending is wasted on idle/underutilized resources. Additionally, 55% of large enterprise software licenses go unused, wasting an average of $127.3 million each year. (<a href='https://www.prosperops.com/blog/how-to-identify-and-prevent-cloud-waste'>ProsperOps/Zylo study</a>)"
+    },
+    {
+      "name": "Operational Intelligence & Health",
+      "purpose": "Provide early warning and diagnostic insights for core systems.",
+      "linked_archetypes": [
+        "Pattern Detection / Anomaly Detection",
         "Causal / Explanatory Reasoning"
       ],
       "example_use_cases": [
-        "Task-time analyzer",
-        "Automation ROI recommender"
-      ]
+        "Equipment failure predictor (e.g., in manufacturing)",
+        "Major IT system outage explainer"
+      ],
+      "impact_summary": "The average cost of IT system downtime is $5,600 per minute. For Fortune 1,000 companies, a major outage can cost up to $1 million per hour. (<a href='https://www.atlassian.com/incident-management/kpis/cost-of-downtime'>Atlassian/IDC data</a>)"
     },
     {
-      "name": "Knowledge Integrity Auditors",
-      "purpose": "Detect stale, conflicting, or duplicated knowledge assets.",
+      "name": "Revenue Generation AI Services",
+      "purpose": "Directly embed AI capabilities into products for customer value.",
       "linked_archetypes": [
-        "Direct Retrieval / Search",
-        "Analysis / Labeling / Evaluation"
+        "Retrieval-Augmented Generation",
+        "Generative / Creative Use"
       ],
       "example_use_cases": [
-        "Wiki-drift detector",
+        "Automated creative generation for ads",
+        "Product data sheet generator"
+      ],
+      "impact_summary": "Companies that leverage AI to power the 'next best experience' can increase revenue by 5 to 8 percent and reduce customer attrition by up to 20 percent. (<a href='https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/next-best-experience-how-ai-can-power-every-customer-interaction'>McKinsey Report</a>)"
+    },
+    {
+      "name": "Knowledge & Expertise Codifiers",
+      "purpose": "Capture, structure, and disseminate tribal knowledge.",
+      "linked_archetypes": [
+        "Summarization / Compression",
+        "Intent Detection / Classification / Routing"
+      ],
+      "example_use_cases": [
+        "Knowledge graph builder from documents",
         "Document-redundancy report"
-      ]
+      ],
+      "impact_summary": "Inefficient knowledge sharing is estimated to cost large businesses an average of $47 million annually. This is compounded by the fact that up to 50% of corporate knowledge cannot be found centrally. (<a href='https://slack.com/resources/why-use-slack/barriers-to-corporate-knowledge-sharing'>Slack/IDC data</a>)"
     },
     {
       "name": "Customer Experience Orchestrators",
@@ -230,7 +155,8 @@
       "example_use_cases": [
         "Churn-risk explainer",
         "Proactive-support recommender"
-      ]
+      ],
+      "impact_summary": "32% of customers will abandon a brand they love after a single bad experience, placing high pressure on customer journey quality. (<a href='https://visionpoint.systems/statistic/32-of-customers-will-walk-away-from-a-brand-they-love-after-a-single-bad-experience/'>PwC/Vision Point Systems</a>)"
     },
     {
       "name": "Human-in-the-Loop Validation Systems",
@@ -242,7 +168,8 @@
       "example_use_cases": [
         "LLM review pipeline for regulatory texts",
         "Audit-with-AI assist flow"
-      ]
+      ],
+      "impact_summary": "The average cost of an AI-related data breach is estimated to be $14.6 million in 2025, which is triple the cost of a traditional breach. (<a href='https://www.datafence.ai/blog/cost-of-ai-data-breaches-2025.html'>DataFence (2025 estimate)</a>)"
     }
   ]
 }

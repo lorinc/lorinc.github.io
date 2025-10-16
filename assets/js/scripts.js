@@ -23,6 +23,7 @@
     var playPauseBtn = carousel.querySelector('.carousel-play-pause');
     var playIcon = carousel.querySelector('.play-icon');
     var pauseIcon = carousel.querySelector('.pause-icon');
+    var overlayPurpose = carousel.querySelector('.overlay-purpose');
     
     var currentSlide = 0;
     var isPlaying = true;
@@ -42,6 +43,12 @@
         slides[index].classList.add('active');
         dots[index].classList.add('active');
         currentSlide = index;
+        
+        // Update overlay text
+        if (overlayPurpose) {
+            var impactSummary = slides[index].getAttribute('data-impact-summary');
+            overlayPurpose.innerHTML = impactSummary;
+        }
     }
     
     function nextSlide() {

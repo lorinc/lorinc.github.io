@@ -4,7 +4,7 @@
   <div class="use-cases-carousel">
     <div class="carousel-container">
       {% for use_case in use_cases %}
-      <div class="carousel-slide{% if forloop.first %} active{% endif %}" data-slide="{{ forloop.index0 }}">
+      <div class="carousel-slide{% if forloop.first %} active{% endif %}" data-slide="{{ forloop.index0 }}" data-impact-summary="{{ use_case.impact_summary }}">
         <div class="carousel-content">
           <div class="use-case-name">{{ use_case.name }}</div>
           <div class="use-case-purpose">{{ use_case.purpose }}</div>
@@ -22,6 +22,9 @@
         </div>
       </div>
       {% endfor %}
+    </div>
+    <div class="carousel-overlay">
+      <div class="overlay-purpose">{% if use_cases.first %}{{ use_cases.first.impact_summary }}{% endif %}</div>
     </div>
   </div>
   
