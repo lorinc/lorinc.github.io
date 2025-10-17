@@ -39,13 +39,6 @@
         if (overlayPurpose) {
             var impactSummary = slides[index].getAttribute('data-impact-summary');
             overlayPurpose.innerHTML = impactSummary;
-            
-            // Make all links in overlay open in new tab
-            var links = overlayPurpose.querySelectorAll('a');
-            links.forEach(function(link) {
-                link.setAttribute('target', '_blank');
-                link.setAttribute('rel', 'noopener noreferrer');
-            });
         }
     }
     

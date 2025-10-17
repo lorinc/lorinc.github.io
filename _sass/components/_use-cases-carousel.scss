@@ -138,16 +138,16 @@
   line-height: 1.4;
   padding: 0.5rem 0.75rem;
   border-radius: 4px;
-  height: calc(1.4em * 2 + 1rem);
+  height: calc(1.4em * 2 + 1rem + 26px);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   overflow: hidden;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   
   @include media-breakpoint-up(md) {
     font-size: 1.75rem;
     padding: 0.75rem 1rem;
-    height: calc(1.4em * 2 + 1.5rem);
+    height: calc(1.4em * 2 + 1.5rem + 26px);
   }
   
   &:hover {
@@ -161,7 +161,7 @@
   color: $steel;
   font-size: 0.875rem;
   line-height: 1.4;
-  height: calc(1.4em * 4.5);
+  height: calc(1.4em * 4.5 - 26px);
   overflow: hidden;
   
   @include media-breakpoint-up(md) {
@@ -190,7 +190,6 @@
         content: '○';
         position: absolute;
         left: 0;
-        font-size: 0.875rem;
       }
     }
   }
