@@ -15,12 +15,37 @@
     font-weight: bold;
     line-height: 1.2;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 5px;
     @include media-breakpoint-up(md) {
       font-size: 56px;
     }
     @include media-breakpoint-up(lg) {
       font-size: 60px;
+    }
+  }
+  .intro-title-section {
+    margin-bottom: 60px;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 80px;
+    }
+    blockquote:first-of-type {
+      text-align: right;
+      border-left: none;
+      padding: 0;
+      padding-right: calc((100% - 100%) / 2);
+      margin-bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+      color: $steel;
+      font-size: 1.1rem;
+      font-style: italic;
+      @include media-breakpoint-up(md) {
+        max-width: 90%;
+      }
+      @include media-breakpoint-up(lg) {
+        max-width: 85%;
+      }
     }
   }
   h2 {

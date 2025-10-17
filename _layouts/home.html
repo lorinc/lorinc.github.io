@@ -7,14 +7,21 @@ bodyClass: "page-home"
   <div class="container">
     {% assign content_parts = content | split: '</h1>' %}
     {% if content_parts.size > 1 %}
+    {% assign after_h1_parts = content_parts[1] | split: '</blockquote>' %}
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 intro-title-section">
         {{ content_parts[0] | append: '</h1>' }}
+        {% if after_h1_parts.size > 1 %}
+        {{ after_h1_parts[0] | append: '</blockquote>' }}
+        {% assign remaining_content = after_h1_parts[1] %}
+        {% else %}
+        {% assign remaining_content = content_parts[1] %}
+        {% endif %}
       </div>
     </div>
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-        {{ content_parts[1] }}
+        {{ remaining_content }}
         {% if page.show_dual_cta %}
           {% include dual-cta.html %}
         {% endif %}
