@@ -12,6 +12,8 @@ var position_size = 15;
 var position_speed = 0.007;
 
 var pattern = '/images/features/cross_ripple_fine_loss.webp'
+var img;
+var imageLoaded = false;
 
 function setup() {  
   var parent = document.getElementById('moire-background').parentElement;
@@ -21,11 +23,29 @@ function setup() {
   canvas.style('top', '0');
   canvas.style('left', '0');
   canvas.style('z-index', '0');
-  img = loadImage(pattern);
+  
+  // Lazy load the image after page load
+  if (document.readyState === 'complete') {
+    loadMoireImage();
+  } else {
+    window.addEventListener('load', loadMoireImage);
+  }
+}
+
+function loadMoireImage() {
+  img = loadImage(pattern, function() {
+    imageLoaded = true;
+  });
 }
 
 function draw() {
   background(0, 43, 54); // Solarized Dark background (#002b36)  
+  
+  // Only draw images if loaded
+  if (!imageLoaded || !img) {
+    return;
+  }
+  
   imageMode(CENTER);
   translate(width / 2, height / 2);
 
