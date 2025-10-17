@@ -138,7 +138,7 @@
   line-height: 1.4;
   padding: 0.5rem 0.75rem;
   border-radius: 4px;
-  height: calc(1.4em * 2 + 1rem + 26px);
+  height: calc(1.4em * 2 + 1rem + 36px);
   display: flex;
   align-items: flex-start;
   overflow: hidden;
@@ -161,11 +161,12 @@
   color: $steel;
   font-size: 0.875rem;
   line-height: 1.4;
-  height: calc(1.4em * 4.5 - 26px);
+  height: calc(1.4em * 4.5 - 36px);
   overflow: hidden;
   
   @include media-breakpoint-up(md) {
     font-size: 0.9375rem;
+    height: calc(1.4em * 4.5 - 26px);
   }
   
   .examples-label {
