@@ -10,7 +10,7 @@ show_dual_cta: true
 > Congrats, you've won the race.
 
 AI is not innovation anymore. It's a tool.
-- ***We deliver 30-day AI pilots***
+- ***We deliver 30-day AI pilots*** 
 - Train ops to spot AI automation gaps
 - Train devs MLOps and AI pipelines
 

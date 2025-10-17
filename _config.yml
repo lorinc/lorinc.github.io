@@ -3,12 +3,12 @@ permalink: pretty
 title: 'lorinc.github.io'
 
 logo:
-  mobile: "images/logo/ego.png"
-  mobile_height: "29px"
-  mobile_width: "179px"
-  desktop: "images/logo/ego.png"
-  desktop_height: "29px"
-  desktop_width: "179px"
+  mobile: "images/logo/AI30.png"
+  mobile_height: "18px"
+  mobile_width: "28px"
+  desktop: "images/logo/AI30.png"
+  desktop_height: "35px"
+  desktop_width: "53px"
 
 home: 
   limit_services: 6
