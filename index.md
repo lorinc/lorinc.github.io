@@ -1,7 +1,7 @@
 ---
 title: Home
 layout: home
-description: A Jekyll-based website with custom carousel components.
+description: We train SMEs to deliver AI projects in weeks by doing it with them.
 show_use_cases_carousel: true
 show_dual_cta: true
 ---
@@ -9,9 +9,9 @@ show_dual_cta: true
 # What do <u>you</u> want to solve with AI?
 
 ## **Start benefitting from your AI project in weeks.**
+- We deliver 30-day AI pilots
+- Train ops to spot AI automation gaps
+- Train devs MLOps and AI pipelines
 
-I help companies run their first ***AI pilot*** project with measurable ROI — something real, useful, and done ***in 30 days***. 
 
-I help choosing a use case for your first AI pilot.
-
-I build it, and train your team to copy the process.
+Added the list styling directly to the .intro section. The bullet points should now display as hollow circles with increased indent.

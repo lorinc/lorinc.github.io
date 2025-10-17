@@ -50,7 +50,8 @@
     }
   }
   ul {
-    list-style: disc;
+    list-style: circle;
+    padding-left: 15px;
   }
   ol {
     list-style: decimal;
@@ -58,7 +59,7 @@
   li {
     margin-bottom: 5px;
     line-height: 1.56;
-    margin-left: 20px;
+    margin-left: 35px;
     color: $steel;
   }
   hr {

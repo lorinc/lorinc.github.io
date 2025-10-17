@@ -9,8 +9,7 @@
       ],
       "example_use_cases": [
         "Internal Q&A chatbot for support staff",
-        "Self-serve analytics copilot",
-        "Automated knowledge base"
+        "Self-serve analytics copilot"
       ],
       "impact_summary": "Knowledge workers spend <b>58% of their day on 'work about work,'</b> like searching for information. For large organizations (>10k workers), time spent looking for information can <b>cost over $70 million annually</b>. (<a href='https://pivotly.com/100k-spreadsheet-your-hidden-cost-of-data-silos/'>Asana/Iterators study</a>)"
     },
@@ -23,8 +22,7 @@
       ],
       "example_use_cases": [
         "Executive summary generator",
-        "Anomaly-cause explainer",
-        "KPI narrative bot"
+        "Anomaly-cause explainer"
       ],
       "impact_summary": "Poor data quality, often a result of fragmented data silos, costs organizations an average of <b>$12.9 million annually</b> (Gartner estimate)."
     },
