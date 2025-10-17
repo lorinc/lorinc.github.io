@@ -23,7 +23,7 @@
     
     var currentSlide = 0;
     var autoplayInterval;
-    var AUTOPLAY_DELAY = 3000;
+    var AUTOPLAY_DELAY = 4000;
     
     function showSlide(index) {
         // Remove active class from all slides

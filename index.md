@@ -13,5 +13,4 @@ show_dual_cta: true
 - Train ops to spot AI automation gaps
 - Train devs MLOps and AI pipelines
 
-
-Added the list styling directly to the .intro section. The bullet points should now display as hollow circles with increased indent.
+No more vague “exploring AI.” We pick a use case with high ROI, automate it, and leave your team equipped to do the next one themselves.
