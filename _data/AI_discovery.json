@@ -675,56 +675,6 @@
       "Customer churn / poor CX",
       "Slow decision cycles"
     ]
-  },
-  "AI_Archetype": {
-    "description": "Core mechanisms or patterns of intelligence a solution relies on.",
-    "items": [
-      {
-        "name": "Direct Retrieval / Search",
-        "core_idea": "Fetch and rank relevant documents or data points directly.",
-        "example": "Enterprise search or legal precedent lookup."
-      },
-      {
-        "name": "Summarization / Compression",
-        "core_idea": "Condense long or multi-source content into concise insight.",
-        "example": "Meeting or document summarizer."
-      },
-      {
-        "name": "Retrieval-Augmented Generation (RAG)",
-        "core_idea": "Combine retrieval and generation for grounded answers.",
-        "example": "Internal Q&A bot using company documentation."
-      },
-      {
-        "name": "Multi-hop / Reasoning / Chain-of-Thought",
-        "core_idea": "Decompose and reason across multiple evidence sources.",
-        "example": "Causal explanation or investigative assistant."
-      },
-      {
-        "name": "Agentic / Tool-Augmented Retrieval",
-        "core_idea": "Use autonomous orchestration and API/tool calls to reach goals.",
-        "example": "Analyst assistant performing multi-step calculations."
-      },
-      {
-        "name": "Intent Detection / Classification / Routing",
-        "core_idea": "Classify intent and route input to the correct pipeline.",
-        "example": "Helpdesk triage classifier or action router."
-      },
-      {
-        "name": "Analysis / Labeling / Evaluation",
-        "core_idea": "Add metadata, detect anomalies, or evaluate content.",
-        "example": "Sentiment analysis, data tagging, anomaly detection."
-      },
-      {
-        "name": "Causal / Explanatory Reasoning",
-        "core_idea": "Explain causes or drivers behind observed outcomes.",
-        "example": "Why-sales-dropped analytics explainer."
-      },
-      {
-        "name": "Generative / Creative Use",
-        "core_idea": "Create new text, designs, or code grounded in context.",
-        "example": "Proposal writer, code assistant, image generator."
-      }
-    ]
   }
 }
 
