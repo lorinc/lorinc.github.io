@@ -7,7 +7,7 @@ show_dual_cta: true
 ---
 
 # Make AI the norm.
-> Congrats, you've won the race.
+> Yes, it's a bubble. So was the Internet.
 
 AI is not innovation anymore. It's a tool.
 - ***We deliver 30-day AI pilots*** 
