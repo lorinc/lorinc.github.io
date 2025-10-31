@@ -15,15 +15,23 @@
             height: 100vh;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
         }
-        .placeholder-text {
+        .placeholder-container {
             color: #93a1a1;
-            font-size: 3rem;
-            font-weight: 600;
             text-align: center;
             line-height: 1.4;
-            white-space: pre-line;
+            max-width: 80%;
         }
-        .placeholder-text a {
+        .placeholder-header {
+            font-size: 3rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        .placeholder-body {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 1.5rem;
+        }
+        .placeholder-container a {
             display: inline-block;
             background-color: #93a1a1;
             color: #002b36;
@@ -34,12 +42,16 @@
             font-weight: 600;
             transition: background-color 0.2s ease;
         }
-        .placeholder-text a:hover {
+        .placeholder-container a:hover {
             background-color: #b8c5c6;
         }
     </style>
 </head>
 <body>
-    <div class="placeholder-text">Placeholder for AI Pilot Assesment Engine:<br/><br/>VectorDB + ~2k nodes, ~10k edges Knowledge Graph based expert system that uses LLM for UX and guidance.<br/>Converts conversation into domain/system/team factor instances with inheritance and evidence-weighted confidence for precise, reusable pilot feasibility assesments.<br/><br/><a target="_blank" rel="noopener noreferrer" href="https://github.com/lorinc/ai-pilot-assessment-engine">Github Repo ⇨</a></div>
+    <div class="placeholder-container">
+        <div class="placeholder-header">AI Pilot Assesment Engine</div>
+        <div class="placeholder-body">Vector DB + Knowledge Graph expert system (~2k nodes, ~10k edges) that models capabilities across teams, tools, functions, and the organization. LLM acts as the UX and guidance layer. The system converts conversation inputs into factor instances with inheritance and evidence-weighted confidence, enabling precise, reusable pilot feasibility assessments.</div>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/lorinc/ai-pilot-assessment-engine">Github Repo ⇨</a>
+    </div>
 </body>
 </html>
