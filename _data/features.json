@@ -1,7 +1,7 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "AI is not Silver Bullet",
+    "description": "99% of AI success is Data Quality.<br/>We can help.",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
@@ -9,8 +9,8 @@
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "AI is a tool, not a display.",
+    "description": "AI pilots should prove ROI,<br/>not just feasibility.",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
@@ -18,8 +18,8 @@
     }
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "95% of all AI pilots fail.",
+    "description": "It requires cross-domain expertise, and incremental development.",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,
