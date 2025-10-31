@@ -45,3 +45,6 @@ logs/
 # Build artifacts
 dist/
 build/
+
+# Obsolete files
+obsolete/
