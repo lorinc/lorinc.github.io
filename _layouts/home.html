@@ -72,6 +72,23 @@ bodyClass: "page-home"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
 <script src="{{ '/assets/js/moire-background.js' | relative_url }}"></script>
 
+<!-- Google Calendar Appointment Scheduling -->
+<script>
+(function() {
+  window.addEventListener('load', function() {
+    var scheduleButton = document.getElementById('schedule-call-btn');
+    if (scheduleButton) {
+      scheduleButton.addEventListener('click', function(e) {
+        e.preventDefault();
+        // Open the Google Calendar scheduling page directly
+        window.open('https://calendar.google.com/calendar/appointments/schedules/AcZssZ3HVb_2sdzhPPn00dX-nDw2wuypcvv2gElsyWMVaxSIWSOb_sdMjEx-m5uCZMDRuqen796uzQUX?gv=true', '_blank', 'width=800,height=600');
+      });
+    }
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+
 {% if site.data.features %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
